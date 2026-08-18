@@ -20,7 +20,7 @@ app.post('/api/chat', async (req, res) => {
     const targetUrl = "https://api.rewind.ai/v1/chat/completions";
 
     const headers = {
-        "accept": "*/*",
+        "accept": "*/ *",
         "accept-language": "en-US,en;q=0.9,ar;q=0.8",
         "content-type": "application/json",
         "priority": "u=1, i",
